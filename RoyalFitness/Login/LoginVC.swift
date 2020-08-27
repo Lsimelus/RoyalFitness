@@ -10,7 +10,8 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class LoginVC: UIViewController {
+class LoginVC: UIViewController, UITextFieldDelegate {
+    
 
     @IBOutlet weak var royal: UILabel!
     @IBOutlet weak var fitness: UILabel!
@@ -26,7 +27,11 @@ class LoginVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let Tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DismissKeyboard))
+        view.addGestureRecognizer(Tap)
+        
+        
         royal.alpha = 0
         fitness.alpha = 0
         emailLbl.alpha = 0
@@ -37,6 +42,11 @@ class LoginVC: UIViewController {
         passtf.alpha = 0
         horse.alpha = 0
         
+    }
+    
+    
+    @objc func DismissKeyboard() {
+        view.endEditing(true)
     }
     
     override func viewDidAppear(_ animated: Bool) {

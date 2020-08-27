@@ -3,17 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		71F705A52495C3DA0042B5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705A42495C3DA0042B5C9 /* AppDelegate.swift */; };
 		71F705A72495C3DA0042B5C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705A62495C3DA0042B5C9 /* SceneDelegate.swift */; };
-		71F705A92495C3DA0042B5C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705A82495C3DA0042B5C9 /* ViewController.swift */; };
 		71F705AC2495C3DA0042B5C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F705AA2495C3DA0042B5C9 /* Main.storyboard */; };
 		71F705AE2495C3DD0042B5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F705AD2495C3DD0042B5C9 /* Assets.xcassets */; };
 		71F705B12495C3DD0042B5C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F705AF2495C3DD0042B5C9 /* LaunchScreen.storyboard */; };
 		71F705C62495C6590042B5C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71F705C52495C6590042B5C9 /* GoogleService-Info.plist */; };
+		71F705CC2495CFAA0042B5C9 /* JournalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705C82495CFA90042B5C9 /* JournalsViewController.swift */; };
+		71F705CD2495CFAA0042B5C9 /* JournalEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705C92495CFA90042B5C9 /* JournalEntryViewController.swift */; };
+		71F705CE2495CFAA0042B5C9 /* JournalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705CA2495CFA90042B5C9 /* JournalModel.swift */; };
+		71F705CF2495CFAA0042B5C9 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705CB2495CFA90042B5C9 /* JournalTableViewCell.swift */; };
+		71F705D42495CFB70042B5C9 /* VideoListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705D12495CFB70042B5C9 /* VideoListScreen.swift */; };
+		71F705D52495CFB70042B5C9 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705D22495CFB70042B5C9 /* VideoCell.swift */; };
+		71F705D62495CFB70042B5C9 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705D32495CFB70042B5C9 /* Video.swift */; };
+		71F705DD2495CFC30042B5C9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705D82495CFC30042B5C9 /* LoginVC.swift */; };
+		71F705DE2495CFC30042B5C9 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705D92495CFC30042B5C9 /* AlertController.swift */; };
+		71F705DF2495CFC30042B5C9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705DA2495CFC30042B5C9 /* User.swift */; };
+		71F705E02495CFC30042B5C9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705DB2495CFC30042B5C9 /* SignUpVC.swift */; };
+		71F705E12495CFC30042B5C9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705DC2495CFC30042B5C9 /* Account.swift */; };
+		71F705E92495CFD20042B5C9 /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705E32495CFD20042B5C9 /* RunViewController.swift */; };
+		71F705EA2495CFD20042B5C9 /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705E42495CFD20042B5C9 /* Tracker.swift */; };
+		71F705EB2495CFD20042B5C9 /* RunCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705E62495CFD20042B5C9 /* RunCell.swift */; };
+		71F705EC2495CFD20042B5C9 /* PrevRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705E72495CFD20042B5C9 /* PrevRun.swift */; };
+		71F705ED2495CFD20042B5C9 /* RunHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705E82495CFD20042B5C9 /* RunHistory.swift */; };
+		71F705EF2495E0690042B5C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F705EE2495E0690042B5C9 /* ViewController.swift */; };
+		71F705FC2496757C0042B5C9 /* Dips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F12496757C0042B5C9 /* Dips.mp4 */; };
+		71F705FD2496757C0042B5C9 /* Wall Sits.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F22496757C0042B5C9 /* Wall Sits.mp4 */; };
+		71F705FE2496757C0042B5C9 /* Squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F32496757C0042B5C9 /* Squat.mp4 */; };
+		71F705FF2496757C0042B5C9 /* Plank Elbows.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F42496757C0042B5C9 /* Plank Elbows.mp4 */; };
+		71F706002496757C0042B5C9 /* Jumping Jacks.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F52496757C0042B5C9 /* Jumping Jacks.mp4 */; };
+		71F706012496757C0042B5C9 /* Mountain Climbers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F62496757C0042B5C9 /* Mountain Climbers.mp4 */; };
+		71F706022496757C0042B5C9 /* Lunges.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F72496757C0042B5C9 /* Lunges.mp4 */; };
+		71F706032496757C0042B5C9 /* Crunches.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F82496757C0042B5C9 /* Crunches.mp4 */; };
+		71F706042496757C0042B5C9 /* Reverse Crunches.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705F92496757C0042B5C9 /* Reverse Crunches.mp4 */; };
+		71F706052496757C0042B5C9 /* High Knees.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705FA2496757C0042B5C9 /* High Knees.mp4 */; };
+		71F706062496757C0042B5C9 /* Push Ups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71F705FB2496757C0042B5C9 /* Push Ups.mp4 */; };
 		7207643D37DB05C395146A16 /* Pods_RoyalFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45FCCFE1952A70BF1073A92 /* Pods_RoyalFitness.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,12 +50,40 @@
 		71F705A12495C3DA0042B5C9 /* RoyalFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyalFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F705A42495C3DA0042B5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F705A62495C3DA0042B5C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71F705A82495C3DA0042B5C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71F705AB2495C3DA0042B5C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71F705AD2495C3DD0042B5C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71F705B02495C3DD0042B5C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71F705B22495C3DD0042B5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F705C52495C6590042B5C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		71F705C82495CFA90042B5C9 /* JournalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalsViewController.swift; sourceTree = "<group>"; };
+		71F705C92495CFA90042B5C9 /* JournalEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntryViewController.swift; sourceTree = "<group>"; };
+		71F705CA2495CFA90042B5C9 /* JournalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalModel.swift; sourceTree = "<group>"; };
+		71F705CB2495CFA90042B5C9 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		71F705D12495CFB70042B5C9 /* VideoListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoListScreen.swift; sourceTree = "<group>"; };
+		71F705D22495CFB70042B5C9 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		71F705D32495CFB70042B5C9 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		71F705D82495CFC30042B5C9 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		71F705D92495CFC30042B5C9 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		71F705DA2495CFC30042B5C9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		71F705DB2495CFC30042B5C9 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		71F705DC2495CFC30042B5C9 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		71F705E32495CFD20042B5C9 /* RunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
+		71F705E42495CFD20042B5C9 /* Tracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+		71F705E62495CFD20042B5C9 /* RunCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunCell.swift; sourceTree = "<group>"; };
+		71F705E72495CFD20042B5C9 /* PrevRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrevRun.swift; sourceTree = "<group>"; };
+		71F705E82495CFD20042B5C9 /* RunHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunHistory.swift; sourceTree = "<group>"; };
+		71F705EE2495E0690042B5C9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Royal-Fitness-master-4/RoyalFitness/ViewController.swift"; sourceTree = "<group>"; };
+		71F705F12496757C0042B5C9 /* Dips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dips.mp4; sourceTree = "<group>"; };
+		71F705F22496757C0042B5C9 /* Wall Sits.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wall Sits.mp4"; sourceTree = "<group>"; };
+		71F705F32496757C0042B5C9 /* Squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Squat.mp4; sourceTree = "<group>"; };
+		71F705F42496757C0042B5C9 /* Plank Elbows.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Plank Elbows.mp4"; sourceTree = "<group>"; };
+		71F705F52496757C0042B5C9 /* Jumping Jacks.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jumping Jacks.mp4"; sourceTree = "<group>"; };
+		71F705F62496757C0042B5C9 /* Mountain Climbers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mountain Climbers.mp4"; sourceTree = "<group>"; };
+		71F705F72496757C0042B5C9 /* Lunges.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lunges.mp4; sourceTree = "<group>"; };
+		71F705F82496757C0042B5C9 /* Crunches.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crunches.mp4; sourceTree = "<group>"; };
+		71F705F92496757C0042B5C9 /* Reverse Crunches.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reverse Crunches.mp4"; sourceTree = "<group>"; };
+		71F705FA2496757C0042B5C9 /* High Knees.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "High Knees.mp4"; sourceTree = "<group>"; };
+		71F705FB2496757C0042B5C9 /* Push Ups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Push Ups.mp4"; sourceTree = "<group>"; };
 		977D2C2E678EC6D68D9AF1E2 /* Pods-RoyalFitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyalFitness.release.xcconfig"; path = "Target Support Files/Pods-RoyalFitness/Pods-RoyalFitness.release.xcconfig"; sourceTree = "<group>"; };
 		E45FCCFE1952A70BF1073A92 /* Pods_RoyalFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyalFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,9 +121,14 @@
 		71F705A32495C3DA0042B5C9 /* RoyalFitness */ = {
 			isa = PBXGroup;
 			children = (
+				71F705F02496757C0042B5C9 /* VIdeos */,
+				71F705EE2495E0690042B5C9 /* ViewController.swift */,
+				71F705E22495CFD20042B5C9 /* Run */,
+				71F705D72495CFC30042B5C9 /* Login */,
+				71F705D02495CFB70042B5C9 /* Lift */,
+				71F705C72495CFA90042B5C9 /* Journal */,
 				71F705A42495C3DA0042B5C9 /* AppDelegate.swift */,
 				71F705A62495C3DA0042B5C9 /* SceneDelegate.swift */,
-				71F705A82495C3DA0042B5C9 /* ViewController.swift */,
 				71F705AA2495C3DA0042B5C9 /* Main.storyboard */,
 				71F705AD2495C3DD0042B5C9 /* Assets.xcassets */,
 				71F705AF2495C3DD0042B5C9 /* LaunchScreen.storyboard */,
@@ -77,13 +138,83 @@
 			path = RoyalFitness;
 			sourceTree = "<group>";
 		};
+		71F705C72495CFA90042B5C9 /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				71F705C82495CFA90042B5C9 /* JournalsViewController.swift */,
+				71F705C92495CFA90042B5C9 /* JournalEntryViewController.swift */,
+				71F705CA2495CFA90042B5C9 /* JournalModel.swift */,
+				71F705CB2495CFA90042B5C9 /* JournalTableViewCell.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		71F705D02495CFB70042B5C9 /* Lift */ = {
+			isa = PBXGroup;
+			children = (
+				71F705D12495CFB70042B5C9 /* VideoListScreen.swift */,
+				71F705D22495CFB70042B5C9 /* VideoCell.swift */,
+				71F705D32495CFB70042B5C9 /* Video.swift */,
+			);
+			path = Lift;
+			sourceTree = "<group>";
+		};
+		71F705D72495CFC30042B5C9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				71F705D82495CFC30042B5C9 /* LoginVC.swift */,
+				71F705D92495CFC30042B5C9 /* AlertController.swift */,
+				71F705DA2495CFC30042B5C9 /* User.swift */,
+				71F705DB2495CFC30042B5C9 /* SignUpVC.swift */,
+				71F705DC2495CFC30042B5C9 /* Account.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		71F705E22495CFD20042B5C9 /* Run */ = {
+			isa = PBXGroup;
+			children = (
+				71F705E32495CFD20042B5C9 /* RunViewController.swift */,
+				71F705E42495CFD20042B5C9 /* Tracker.swift */,
+				71F705E52495CFD20042B5C9 /* History */,
+			);
+			path = Run;
+			sourceTree = "<group>";
+		};
+		71F705E52495CFD20042B5C9 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				71F705E62495CFD20042B5C9 /* RunCell.swift */,
+				71F705E72495CFD20042B5C9 /* PrevRun.swift */,
+				71F705E82495CFD20042B5C9 /* RunHistory.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		71F705F02496757C0042B5C9 /* VIdeos */ = {
+			isa = PBXGroup;
+			children = (
+				71F705F12496757C0042B5C9 /* Dips.mp4 */,
+				71F705F22496757C0042B5C9 /* Wall Sits.mp4 */,
+				71F705F32496757C0042B5C9 /* Squat.mp4 */,
+				71F705F42496757C0042B5C9 /* Plank Elbows.mp4 */,
+				71F705F52496757C0042B5C9 /* Jumping Jacks.mp4 */,
+				71F705F62496757C0042B5C9 /* Mountain Climbers.mp4 */,
+				71F705F72496757C0042B5C9 /* Lunges.mp4 */,
+				71F705F82496757C0042B5C9 /* Crunches.mp4 */,
+				71F705F92496757C0042B5C9 /* Reverse Crunches.mp4 */,
+				71F705FA2496757C0042B5C9 /* High Knees.mp4 */,
+				71F705FB2496757C0042B5C9 /* Push Ups.mp4 */,
+			);
+			path = VIdeos;
+			sourceTree = "<group>";
+		};
 		764BB3DAE77B2B354B972034 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				47670CC3929162C1D7C55B19 /* Pods-RoyalFitness.debug.xcconfig */,
 				977D2C2E678EC6D68D9AF1E2 /* Pods-RoyalFitness.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,10 +286,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F706012496757C0042B5C9 /* Mountain Climbers.mp4 in Resources */,
+				71F706052496757C0042B5C9 /* High Knees.mp4 in Resources */,
 				71F705B12495C3DD0042B5C9 /* LaunchScreen.storyboard in Resources */,
+				71F706042496757C0042B5C9 /* Reverse Crunches.mp4 in Resources */,
+				71F706062496757C0042B5C9 /* Push Ups.mp4 in Resources */,
+				71F705FF2496757C0042B5C9 /* Plank Elbows.mp4 in Resources */,
 				71F705C62495C6590042B5C9 /* GoogleService-Info.plist in Resources */,
+				71F706002496757C0042B5C9 /* Jumping Jacks.mp4 in Resources */,
+				71F705FE2496757C0042B5C9 /* Squat.mp4 in Resources */,
+				71F706032496757C0042B5C9 /* Crunches.mp4 in Resources */,
 				71F705AE2495C3DD0042B5C9 /* Assets.xcassets in Resources */,
 				71F705AC2495C3DA0042B5C9 /* Main.storyboard in Resources */,
+				71F706022496757C0042B5C9 /* Lunges.mp4 in Resources */,
+				71F705FC2496757C0042B5C9 /* Dips.mp4 in Resources */,
+				71F705FD2496757C0042B5C9 /* Wall Sits.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +353,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F705A92495C3DA0042B5C9 /* ViewController.swift in Sources */,
+				71F705EA2495CFD20042B5C9 /* Tracker.swift in Sources */,
+				71F705E02495CFC30042B5C9 /* SignUpVC.swift in Sources */,
+				71F705DF2495CFC30042B5C9 /* User.swift in Sources */,
+				71F705DD2495CFC30042B5C9 /* LoginVC.swift in Sources */,
+				71F705CC2495CFAA0042B5C9 /* JournalsViewController.swift in Sources */,
+				71F705CD2495CFAA0042B5C9 /* JournalEntryViewController.swift in Sources */,
+				71F705E12495CFC30042B5C9 /* Account.swift in Sources */,
+				71F705E92495CFD20042B5C9 /* RunViewController.swift in Sources */,
+				71F705EC2495CFD20042B5C9 /* PrevRun.swift in Sources */,
+				71F705D52495CFB70042B5C9 /* VideoCell.swift in Sources */,
+				71F705EB2495CFD20042B5C9 /* RunCell.swift in Sources */,
+				71F705DE2495CFC30042B5C9 /* AlertController.swift in Sources */,
+				71F705CF2495CFAA0042B5C9 /* JournalTableViewCell.swift in Sources */,
+				71F705D42495CFB70042B5C9 /* VideoListScreen.swift in Sources */,
+				71F705CE2495CFAA0042B5C9 /* JournalModel.swift in Sources */,
 				71F705A52495C3DA0042B5C9 /* AppDelegate.swift in Sources */,
 				71F705A72495C3DA0042B5C9 /* SceneDelegate.swift in Sources */,
+				71F705EF2495E0690042B5C9 /* ViewController.swift in Sources */,
+				71F705ED2495CFD20042B5C9 /* RunHistory.swift in Sources */,
+				71F705D62495CFB70042B5C9 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,13 +518,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PA5Q75JC84;
+				DEVELOPMENT_TEAM = 49CRRM7683;
 				INFOPLIST_FILE = RoyalFitness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LS.RoyalFitness;
+				PRODUCT_BUNDLE_IDENTIFIER = LS.RoyalFitness4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,13 +537,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PA5Q75JC84;
+				DEVELOPMENT_TEAM = 49CRRM7683;
 				INFOPLIST_FILE = RoyalFitness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = LS.RoyalFitness;
+				PRODUCT_BUNDLE_IDENTIFIER = LS.RoyalFitness4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -11,6 +11,7 @@ import FirebaseAuth
 
 
 class SignUpVC: UIViewController {
+    
 
     @IBOutlet weak var register: UILabel!
     @IBOutlet weak var emailLbl: UILabel!
@@ -25,6 +26,9 @@ class SignUpVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let Tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DismissKeyboard))
+        view.addGestureRecognizer(Tap)
+        
         register.alpha = 0
         emailLbl.alpha = 0
         passLbl.alpha = 0
@@ -35,6 +39,10 @@ class SignUpVC: UIViewController {
         passtf.alpha = 0
         horse.alpha = 0
 
+    }
+    
+    @objc func DismissKeyboard() {
+        view.endEditing(true)
     }
     
     override func viewDidAppear(_ animated: Bool) {
